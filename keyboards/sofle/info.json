@@ -31,16 +31,15 @@
         "pin": "D3"
     },
     "rgblight": {
-        "led_count": 72,
-        "split_count": [36, 36],
+        "led_count": 70,
+        "split_count": [35, 35],
         "sleep": true
     },
     "rgb_matrix": {
         "driver": "ws2812",
-        "split_count": [36, 36],
+        "split_count": [35, 35],
         "sleep": true,
         "layout": [
-            {"x": 96, "y": 40, "flags": 8},
             {"x": 16, "y": 20, "flags": 2},
             {"x": 48, "y": 10, "flags": 2},
             {"x": 80, "y": 18, "flags": 2},
@@ -76,7 +75,6 @@
             {"matrix": [1, 5], "x": 80, "y": 22, "flags": 4},
             {"matrix": [2, 5], "x": 80, "y": 34, "flags": 4},
             {"matrix": [3, 5], "x": 80, "y": 47, "flags": 4},
-            {"x": 128, "y": 40, "flags": 8},
             {"x": 208, "y": 20, "flags": 2},
             {"x": 176, "y": 10, "flags": 2},
             {"x": 144, "y": 18, "flags": 2},
