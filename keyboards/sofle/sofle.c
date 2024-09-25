@@ -79,13 +79,13 @@ void print_status_narrow(void) {
             oled_write_ln_P(PSTR("Main\n\n"), false);
             break;
         case 1:
-            oled_write_ln_P(PSTR("Ctrl\nMacro"), false);
+            oled_write_ln_P(PSTR("Game\n"), false);
             break;
         case 2:
-            oled_write_ln_P(PSTR("Other\n"), false);
+            oled_write_ln_P(PSTR("Ctrl\nMacro"), false);
             break;
         default:
-            oled_write_ln_P(PSTR("Game\n"), false);
+            oled_write_ln_P(PSTR("Other\n"), false);
             break;
     }
     oled_write_P(PSTR("\n"), false);
