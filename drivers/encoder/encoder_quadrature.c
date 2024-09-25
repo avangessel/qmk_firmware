@@ -18,7 +18,7 @@
 #include <string.h>
 
 #if !defined(ENCODER_RESOLUTIONS) && !defined(ENCODER_RESOLUTION)
-#    define ENCODER_RESOLUTION 2
+#    define ENCODER_RESOLUTION 4
 #endif
 
 #undef ENCODER_DEFAULT_PIN_API_IMPL
